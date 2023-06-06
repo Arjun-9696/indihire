@@ -1,0 +1,28 @@
+<div class="nav">
+  <div class="nav-content">
+    <div class="logo" routerLink="">
+      <img src="../../assets/Icons/logo.png" alt="logo" />
+    </div>
+    <div [ngSwitch]="menuType">
+      <!-- for default nav menu -->
+      <ul
+        class="menu defaultMenu"
+        *ngSwitchCase="'default'"
+        [class.open]="isMenuOpen"
+      >
+        <li><a>What we do</a></li>
+        <li><a>Expertise</a></li>
+        <li><a>Find jobs</a></li>
+        <li><a>About us</a></li>
+        <li><a>Resources</a></li>
+        <li><a>Contact us</a></li>
+      </ul>
+      <!-- hamburger menu for responsive screen -->
+      <div class="burger" (click)="toggleMenu()" [class.open]="isMenuOpen">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </div>
+  </div>
+</div>
