@@ -15,7 +15,6 @@
   padding: 10px;
   color: #000000;
   margin: 0px 70px;
-  
 }
 
 .logo img {
@@ -42,7 +41,6 @@
 .menu li {
   padding: 0px 20px 0px 0px;
   position: relative;
-  
 }
 
 .menu li:last-child {
@@ -88,10 +86,6 @@
   right: 27px;
 }
 
-// .menu li a:hover {
-//   color: rgb(255, 64, 0);
-// }
-
 .burger {
   display: none;
   cursor: pointer;
@@ -134,13 +128,13 @@
   .menu li a span {
     margin-right: 60px;
   }
-  .menu li a{
+  .menu li a {
     color: white;
     font-size: 48px;
-        line-height: 48px;
-        font-family: 'Barlow';
-        font-weight: 700;
-        letter-spacing: -1px;
+    line-height: 48px;
+    font-family: "Barlow";
+    font-weight: 700;
+    letter-spacing: -1px;
   }
 
   .burger {
