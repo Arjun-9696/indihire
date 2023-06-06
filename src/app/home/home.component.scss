@@ -58,12 +58,28 @@
   font-weight: 600;
   background-color: rgb(255, 255, 255);
 }
-.para_right > img {
+.para_right > img:nth-child(1) {
   position: absolute;
   top: 380px;
   left: 980px;
   font-size: 18px;
   color: #fff;
+}
+
+.para_right>img:nth-child(3) {
+    position: absolute;
+    top: 410px;
+    left: 1150px;
+    font-size: 18px;
+    color: #fff;
+    transform: scaleX(-1);
+}
+.para_right>img:nth-child(4) {
+    position: absolute;
+    top: 410px;
+    left: 1210px;
+    font-size: 18px;
+    color: #fff;
 }
 .para_right > p {
   position: absolute;
